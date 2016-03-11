@@ -1,0 +1,16 @@
+{
+  "name": "test-marionettes-bb",
+  "version": "0.1.0",
+  "dependencies": {
+    "bootstrap": null,
+    "jquery": null,
+    "backbone": null,
+    "underscore": null,
+    "marionette": null
+  },
+  "license": "All rights reserved. NetSach 2016.",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}

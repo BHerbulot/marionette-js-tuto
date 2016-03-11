@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div id="form"></div>
+    <div id="list"></div>
+
+    <script type="text/template" id="formView">
+        <h2> New User </h2>
+        <p>Name:<input type="text" id="name"/></p>
+        <p>age:<input type="text" id="age"/></p>
+        <p><button>Create</button></p>
+
+    </script>
+
+    <script type="text/template" id="userView">
+        <p>Name: <%= name %></p>
+        <p>Age: <%= age %></p>
+    </script>
+
+    <script type="text/template" id="usersView">
+        <h2> Users</h2>
+    </script>
+
+    <script type="text/template" id="noUsersView">
+        <h2>No Users</h2>
+    </script>
+
+    <script type="text/javascript"  src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript"  src="../bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript"  src="../bower_components/backbone/backbone-min.js"></script>
+    <script type="text/javascript"  src="../bower_components/marionette/lib/backbone.marionette.js"></script>
+    <script type="text/javascript"  src="script.js"></script>
+
+</body>
+</html>
