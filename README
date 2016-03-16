@@ -1,10 +1,7 @@
-******
-README
-******
+# README
 
-Quick-Start
-===========
+## Quick-Start
 
 make `bower install`
 
-open in your favorite browser tuto_form/index.html
+open in your favorite browser `tuto_form/index.html`.
